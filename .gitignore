@@ -20,13 +20,6 @@
 *.tar
 *.zip
 
-# Files #
-############
-
-*.py
-
-
-
 # Logs and databases #
 ######################
 *.log
@@ -44,9 +37,3 @@ ehthumbs.db
 Thumbs.db
 .idea/
 .vscode/
-
-# Folders #
-######################
-
-pandas/
-CH_IT/FT/
