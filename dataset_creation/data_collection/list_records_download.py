@@ -33,24 +33,25 @@ def fetch_records(endpoint, set_name, metadata_prefix="pico"):
                 for record in root.findall('.//pico:record', ns):  # Adjusted to find <pico:record>
                     title = record.find('dc:title', ns)
                     description = record.find('dc:description', ns)
-                    type_ = record.find('dc:type', ns)
-                    subject = record.find('dc:subject', ns)
+                    
+                    # Handle multiple dc:subject elements
+                    subjects = record.findall('dc:subject', ns)
+                    subject_values = "; ".join(subject.text for subject in subjects if subject is not None)
+                    
+                    # Handle multiple dc:type elements
+                    types = record.findall('dc:type', ns)
+                    type_values = "; ".join(type_.text for type_ in types if type_ is not None)
                     
                     records.append({
                         "title": title.text if title is not None else "",
                         "description": description.text if description is not None else "",
-                        "type": type_.text if type_ is not None else "",
-                        "subject": subject.text if subject is not None else ""
+                        "type": type_values,
+                        "subject": subject_values
                     })
                     total_records += 1
                     pbar.update(1)
                     found_records = True
-                    '''                
-                    # Stop fetching if the limit of 30 records is reached
-                    if total_records >= 30:
-                        print("Reached the limit of 30 records.")
-                        return records
-                    ''' 
+                
                 if not found_records:
                     break
                 
