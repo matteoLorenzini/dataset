@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import string
+import unicodedata
 from nltk.corpus import stopwords
 
 # Download necessary NLTK resources (run this once)
@@ -9,6 +10,9 @@ try:
     stopwords.words('italian')
 except LookupError:
     nltk.download('stopwords')
+
+# Define Italian stopwords globally
+ITALIAN_STOPWORDS = set(stopwords.words('italian'))
 
 def clean_italian_description(text):
     """
@@ -21,41 +25,41 @@ def clean_italian_description(text):
     Returns:
         str: The cleaned Italian description string.
     """
-    if isinstance(text, float):  # Handle potential NaN values
-        text = str(text)
-    
+    if pd.isna(text):  # Handle NaN values
+        return ""
+
     # Convert to lowercase
     text = text.lower()
-    
+
     # Remove parentheses and their content
     text = re.sub(r'\([^)]*\)', '', text)
-    
+
     # Handle missing spaces around apostrophes and contractions
-    text = re.sub(r"(\b[dl]')([a-z])", r"\1 \2", text)  # Add space after "d'" or "l'"
-    
-    # Handle missing spaces between words caused by punctuation removal
-    text = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)  # Add space between lowercase and uppercase letters
-    
-    # Replace abbreviations and common issues dynamically
-    text = re.sub(r'\bges\b', 'gesu', text)  # Replace "ges" with "gesu"
-    
-    # Replace punctuation with spaces
+    text = re.sub(r"(\b[a-zA-Z])'([a-z])", r"\1 \2", text)  # Replace apostrophe with a space between words
+
+    # Normalize text to remove accents
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+
+    # Remove punctuation and replace with spaces
     text = re.sub(r'[^\w\s]', ' ', text)
-    
+
+    # Remove numbers
+    text = re.sub(r'\d+', '', text)
+
     # Tokenize and remove stopwords
-    stop_words = set(stopwords.words('italian'))
     text_tokens = text.split()
-    filtered_tokens = [word for word in text_tokens if word not in stop_words]
-    
+    filtered_tokens = [word for word in text_tokens if word not in ITALIAN_STOPWORDS]
+
     # Join tokens back into a single string
     cleaned_text = " ".join(filtered_tokens).strip()
-    
+
     return cleaned_text
 
 def load_and_clean_italian_descriptions_from_csv(file_paths):
     """
     Loads Italian text data from multiple CSV files, performs cleaning on the 'titolo' and
-    'descrizione' columns, and saves the DataFrame with cleaned columns replacing the originals.
+    'descrizione' columns, removes duplicate descriptions, and saves the DataFrame with cleaned columns.
 
     Args:
         file_paths (list of str): A list containing the paths to the CSV files.
@@ -75,6 +79,9 @@ def load_and_clean_italian_descriptions_from_csv(file_paths):
             # Clean the 'titolo' and 'descrizione' columns
             df['titolo'] = df['titolo'].apply(clean_italian_description)
             df['descrizione'] = df['descrizione'].apply(clean_italian_description)
+
+            # Remove duplicate descriptions
+            df = df.drop_duplicates(subset=['descrizione'], keep='first')
 
             # Save the DataFrame with cleaned columns replacing the originals
             output_file = file_path.replace('.csv', '_cleaned.csv')
