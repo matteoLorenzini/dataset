@@ -1,145 +1,210 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="xslt/oai2.xsl"?>
 <?xml version="1.0" ?>
 <ListRecords>
   <record>
     <identifier>work_89710</identifier>
     <title>Figura, luce, atmosfera</title>
     <description>Autoritratto dellâartista</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Ritratto maschile; Il ritratto Ã¨ realizzato per mezzo di sovrapposizioni di piani luminosi, attraversati da fasci di luce che si dipartono dal volto e che si sintetizzano in forma circolare a raggiera al centro del dipinto, rappresentando lâenergia sprigionata da "forze mentali".</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Ritratto maschile</subject>
+    <subject>Il ritratto Ã¨ realizzato per mezzo di sovrapposizioni di piani luminosi, attraversati da fasci di luce che si dipartono dal volto e che si sintetizzano in forma circolare a raggiera al centro del dipinto, rappresentando lâenergia sprigionata da "forze mentali".</subject>
   </record>
   <record>
     <identifier>work_89711</identifier>
     <title>Contadina siciliana</title>
     <description>Testa di giovane donna</description>
-    <type>Opere; Scultura; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Raffigurazione di una giovane donna; Opera caratteristica della produzione matura dello scultore, incarna la tipica bellezza muliebre siciliana</subject>
+    <type>Opere</type>
+    <type>Scultura</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Raffigurazione di una giovane donna</subject>
+    <subject>Opera caratteristica della produzione matura dello scultore, incarna la tipica bellezza muliebre siciliana</subject>
   </record>
   <record>
     <identifier>work_89714</identifier>
     <title>Ciclo della natura</title>
     <description>Corpus di dieci opere dello stesso formato, creato dal pittore nel 1984, durante una breve permanenza a Gibellina e dedicato alle sostanze primitive vitali della natura siciliana: acqua, cielo, terra. Sono raffigurati il "Ciclo dell' acqua", come fonte nutritiva e di origine della vita; il "Ciclo del fuoco", come la forza dirompente; il "Ciclo del pane, come valore universale. La natura rappresentata da Schifano Ã¨ caratterizzata da un forte lirismo e non Ã¨ esente da una soffusa malinconia quasi a ricordare lâimpossibilitÃ  da parte dellâuomo di riuscire a svelare lâessenza del naturale. La natura, in sostanza, rimane ignota mentre si riesce ad intuire solo il principio generativo, lâenergia primordiale, che lâartista traduce in linguaggio grafico e pittorico: svolazzi e segni, i cui colori servono a evidenziare e sollecitare lo sguardo, linee sinuose, oppure geometriche, talvolta vorticanti, altre volte lente e morbide. In alcuni casi i segni si avvicinano alla scrittura.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89715</identifier>
     <title>Scirocco neonato</title>
     <description>Lâerba mossa dal vento e gli sbuffi di colore verso il cielo annunciano lâalzarsi dello scirocco.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89716</identifier>
     <title>Solare</title>
     <description>Per il grande sole siciliano dai raggi maestosi, Mario Schifano volle la sabbia di Segesta, a far da sfondo allâesplosione di gialli e rossi.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89717</identifier>
     <title>Orto botanico</title>
     <description>LâOrto botanico offre inflorescenze luminose grazie allâuso dellâacrilico e dello smalto.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89718</identifier>
     <title>Onda neonata</title>
     <description>Il mare si svela con onde bianche e azzurre che si inseguono e vorticano. Il loro fluido movimento Ã¨ interrotto dalle strisce della tela lasciata bianca, priva di colore.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89719</identifier>
     <title>Gigli di acqua</title>
     <description>Gigli dâacqua Ã¨ una fioritura di arabeschi, una trama tumultuosa, un ribollire di elementi vegetali il cui vitalismo Ã¨ enfatizzato dal verde della linfa.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89720</identifier>
     <title>Colline per Gibellina</title>
     <description>La collina dove sorgeva il paese vittima della catastrofe sismica del gennaio 1968 Ã¨ visione ricca di lirismo. Il mare dâerba, mosso dal vento sullo sfondo di un cielo di marmo, Ã¨ simbolo di speranza, sguardo al futuro.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89721</identifier>
     <title>Quadro acerbo per i bambini</title>
     <description>Realizzazione pittorica energica di una natura morta raffigurante dei limoni e delle mele dalle tonalitÃ  spente, data la predominanza del colore nero.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89722</identifier>
     <title>Naturale</title>
     <description>Realizzazione pittorica energica e plastica raffigurante della frutta dalle tonalitÃ  accese e naturali, in contrasto con lo sfondo cupo, data la predominanza del colore nero.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89723</identifier>
     <title>M come Monica</title>
     <description>La lettera M, iniziale del nome della moglie dellâartista, Ã¨ dipinta su lâintera superficie della tela con segni pittorici policromatici.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89724</identifier>
     <title>Il campo di pane</title>
     <description>La rappresentazione dei campi di grano si avvale dellâuso di grumi cromatici ottenuti stendendo direttamente il colore dal tubetto, e poi animandoli con segni impetuosi, ricchi di vitalismo. Le spighe stilizzate sono dense di colore luminoso.</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
     <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
   </record>
   <record>
     <identifier>work_89680</identifier>
     <title>Ritratto di giovane gentiluomo</title>
     <description>Ritratto di giovane uomo</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Ritratto maschile; Ritratto di giovane dai lineamenti aristocratici e dal carattere intellettuale.</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Ritratto maschile</subject>
+    <subject>Ritratto di giovane dai lineamenti aristocratici e dal carattere intellettuale.</subject>
   </record>
   <record>
     <identifier>work_89681</identifier>
     <title>Venere dormiente</title>
     <description>Nudo della dea Venere dormiente con amorino</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Raffigurazione di donna ignuda dormiente con amorino; La dea, nuda Ã¨ raffigurata morbidamente adagiata su una coltre bianca in un contesto naturalistico, con una fitta macchia di delicate pianticelle fiorite. A sinistra un paffuto amorino guarda lo spettatore con lâindice sulle piccole labbra, invitando al silenzio per non turbare il sonno di Venere.</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Raffigurazione di donna ignuda dormiente con amorino</subject>
+    <subject>La dea, nuda Ã¨ raffigurata morbidamente adagiata su una coltre bianca in un contesto naturalistico, con una fitta macchia di delicate pianticelle fiorite. A sinistra un paffuto amorino guarda lo spettatore con lâindice sulle piccole labbra, invitando al silenzio per non turbare il sonno di Venere.</subject>
   </record>
   <record>
     <identifier>work_89682</identifier>
     <title>Ratto dâEuropa</title>
     <description>Rappresentazione mitologica raffigurante Europa</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Rappresentazione mitologica; Europa Ã¨ stata rapita da Giove ed Ã¨ seduta sul toro dal manto candido, sotto la cui forma si cela il dio. Lâanimale, adorno di corone di fiori sulla testa e intorno al collo massiccio, ha appena intrapreso la sua fuga attraverso il mare ed Ã¨ immerso nellâacqua. La fanciulla si sorregge tenendosi avvinghiata e il suo manto, sorretto da un putto alato, si gonfia al vento.</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Rappresentazione mitologica</subject>
+    <subject>Europa Ã¨ stata rapita da Giove ed Ã¨ seduta sul toro dal manto candido, sotto la cui forma si cela il dio. Lâanimale, adorno di corone di fiori sulla testa e intorno al collo massiccio, ha appena intrapreso la sua fuga attraverso il mare ed Ã¨ immerso nellâacqua. La fanciulla si sorregge tenendosi avvinghiata e il suo manto, sorretto da un putto alato, si gonfia al vento.</subject>
   </record>
   <record>
     <identifier>work_89683</identifier>
     <title>Baccante danzante</title>
     <description>Una giovane Baccante nell'atto di danzare</description>
-    <type>Opere; Scultura; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Raffigurazione di una giovane baccante; La nuda baccante, seguace del dio Dioniso, ne celebra il culto con una danza forsennata al suono dei cembali. L'agitazione che pervade tutta la figura viene resa dalla torsione a vortice che dalla gamba passa per il busto e il collo fino alla testa, gettata all'indietro e girata con lo sguardo verso sinistra. Il panneggio si apre verso l'alto, assecondando il ritmo ascensionale della statua danzante. Le braccia sollevate seguono la torsione del corpo. La mano destra regge un tamburello.</subject>
+    <type>Opere</type>
+    <type>Scultura</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Raffigurazione di una giovane baccante</subject>
+    <subject>La nuda baccante, seguace del dio Dioniso, ne celebra il culto con una danza forsennata al suono dei cembali. L'agitazione che pervade tutta la figura viene resa dalla torsione a vortice che dalla gamba passa per il busto e il collo fino alla testa, gettata all'indietro e girata con lo sguardo verso sinistra. Il panneggio si apre verso l'alto, assecondando il ritmo ascensionale della statua danzante. Le braccia sollevate seguono la torsione del corpo. La mano destra regge un tamburello.</subject>
   </record>
   <record>
     <identifier>work_89684</identifier>
     <title>Veduta di Palermo</title>
     <description>Paesaggio con veduta di Palermo</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Paesaggio; Il dipinto raffigura una strada di campagna nella zona chiamata Santa Maria di GesÃ¹, ai cui lati cresce la tipica vegetazione mediterranea con agavi, fichi dâindia, ulivi e palme. A sinistra, sullo stradale, sorge una casa, davanti alla quale indugia una donna, unâaltra conversa con i pastori. Avanzano sulla via un gregge e altre figure, presumibilmente contadini con un asino. Sullo sfondo la valle e la cittÃ , il suo golfo con Monte Pellegrino.</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Paesaggio</subject>
+    <subject>Il dipinto raffigura una strada di campagna nella zona chiamata Santa Maria di GesÃ¹, ai cui lati cresce la tipica vegetazione mediterranea con agavi, fichi dâindia, ulivi e palme. A sinistra, sullo stradale, sorge una casa, davanti alla quale indugia una donna, unâaltra conversa con i pastori. Avanzano sulla via un gregge e altre figure, presumibilmente contadini con un asino. Sullo sfondo la valle e la cittÃ , il suo golfo con Monte Pellegrino.</subject>
   </record>
   <record>
     <identifier>work_89685</identifier>
     <title>Marina</title>
     <description>Paesaggio marino con barca</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Paesaggio marino; Il dipinto raffigura una veduta del golfo di Palermo con il profilo dei rilievi montuosi allâorizzonte, una barca e alcuni pescatori. Il paesaggio Ã¨ immerso nella luce opalina del tardo pomeriggio.</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Paesaggio marino</subject>
+    <subject>Il dipinto raffigura una veduta del golfo di Palermo con il profilo dei rilievi montuosi allâorizzonte, una barca e alcuni pescatori. Il paesaggio Ã¨ immerso nella luce opalina del tardo pomeriggio.</subject>
   </record>
   <record>
     <identifier>work_89686</identifier>
     <title>Saline di Trapani</title>
     <description>Paesaggio con le saline</description>
-    <type>Opere; Dipinto; PhysicalObject</type>
-    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva; ; Paesaggio; Il dipinto raffigura le saline di Trapani in una giornata caliginosa per lâafa. In primo piano le cupole di sale di un nitore abbagliante, sullo sfondo lâorizzonte dove cielo e mare si uniscono e la bianca vela di unâimbarcazione.</subject>
+    <type>Opere</type>
+    <type>Dipinto</type>
+    <type>PhysicalObject</type>
+    <subject>http://culturaitalia.it/pico/thesaurus/4.1#opere_d_arte_visiva</subject>
+    <subject/>
+    <subject>Paesaggio</subject>
+    <subject>Il dipinto raffigura le saline di Trapani in una giornata caliginosa per lâafa. In primo piano le cupole di sale di un nitore abbagliante, sullo sfondo lâorizzonte dove cielo e mare si uniscono e la bianca vela di unâimbarcazione.</subject>
   </record>
 </ListRecords>
